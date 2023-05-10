@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  /*flex-direction: column;*/
+  /*align-content: center;*/
+  justify-content: center;
+}
+
+.App {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 15px 5px;
+  font-size: 16px;
+}
+
+.AppElement {
+  display: flex;
+  justify-content: center;
+  height: available;
+  width: available;
+}
+
+.calendarWrap {
+  position: relative;
+}
+
+.calendarElement {
+  /*position: absolute;*/
+  /*left: 50%;*/
+  /*transform: translateX(-50%);*/
+  /*top: 40px;*/
+  border: 1px solid #ccc;
+  z-index: 999;
+}
+
+
+
+
+
+
+
